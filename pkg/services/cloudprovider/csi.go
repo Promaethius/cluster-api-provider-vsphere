@@ -33,11 +33,11 @@ import (
 // NOTE: the contents of this file are derived from https://github.com/kubernetes-sigs/vsphere-csi-driver/tree/master/manifests/1.14
 
 const (
-	DefaultCSIControllerImage     = "gcr.io/cloud-provider-vsphere/csi/release/driver:v2.1.0"
-	DefaultCSINodeDriverImage     = "gcr.io/cloud-provider-vsphere/csi/release/driver:v2.1.0"
+	DefaultCSIControllerImage     = "gcr.io/cloud-provider-vsphere/csi/release/driver:v2.1.1"
+	DefaultCSINodeDriverImage     = "gcr.io/cloud-provider-vsphere/csi/release/driver:v2.1.1"
 	DefaultCSIAttacherImage       = "quay.io/k8scsi/csi-attacher:v3.0.0"
 	DefaultCSIProvisionerImage    = "quay.io/k8scsi/csi-provisioner:v2.0.0"
-	DefaultCSIMetadataSyncerImage = "gcr.io/cloud-provider-vsphere/csi/release/syncer:v2.1.0"
+	DefaultCSIMetadataSyncerImage = "gcr.io/cloud-provider-vsphere/csi/release/syncer:v2.1.1"
 	DefaultCSILivenessProbeImage  = "quay.io/k8scsi/livenessprobe:v2.1.0"
 	DefaultCSIRegistrarImage      = "quay.io/k8scsi/csi-node-driver-registrar:v2.0.1"
 	CSINamespace                  = metav1.NamespaceSystem
